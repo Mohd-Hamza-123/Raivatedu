@@ -7,7 +7,13 @@ type Props = {
   params: Promise<{ slug: string }>;
 };
 
-// Generate dynamic SEO metadata for each course
+
+export async function generateStaticParams() {
+  return courses.map((course) => ({
+    slug: course.slug,
+  }));
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const course = courses.find((c) => c.slug === slug);
@@ -30,7 +36,6 @@ export default async function CourseDetailPage({ params }: Props) {
   const { slug } = await params;
   const course = courses.find((c) => c.slug === slug);
 
-  // If someone types a bad URL, show the 404 page
   if (!course) {
     notFound();
   }
