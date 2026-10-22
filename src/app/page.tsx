@@ -11,6 +11,7 @@ export default function HomePage() {
       <button className="mt-8 rounded-xl bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-indigo-700 active:bg-indigo-800 disabled:opacity-50">
         Sample primary button
       </button>
+      
     </main>
   );
 }
