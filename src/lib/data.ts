@@ -38,8 +38,37 @@ export const courses = [
     duration: "10 weeks",
     level: "Advanced",
   },
+  {
+    id: "4",
+    slug: "digital-marketing-masterclass",
+    title: "Digital Marketing Masterclass",
+    summary: "SEO, social media, and paid ads. Learn how to drive real growth for brands.",
+    category: "Marketing",
+    price: 8999,
+    duration: "6 weeks",
+    level: "Beginner",
+  },
+  {
+    id: "5",
+    slug: "react-native-mobile-apps",
+    title: "React Native Mobile Apps",
+    summary: "Build iOS and Android apps from scratch using React Native and Expo.",
+    category: "Development",
+    price: 12999,
+    duration: "8 weeks",
+    level: "Intermediate",
+  },
+  {
+    id: "6",
+    slug: "product-management-essentials",
+    title: "Product Management Essentials",
+    summary: "Learn how to roadmap, launch, and scale products like a Silicon Valley PM.",
+    category: "Business",
+    price: 13999,
+    duration: "10 weeks",
+    level: "Advanced",
+  },
 ];
-
 
 export const mentors = [
   { name: "Ananya Sharma", role: "Ex-Google Engineer", subject: "Full-Stack Dev", initials: "AS" },
