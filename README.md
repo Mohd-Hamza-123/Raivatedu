@@ -45,4 +45,14 @@ A production-quality marketing website for **Raivatedu**, an education and learn
 - Integrate a real search API (e.g., Algolia) to make the Hero search bar functional.
 
 
-```
+## 📊 Lighthouse Scores (Mobile)
+![Lighthouse Scores](./public/lighthouse.png)
+
+- **Performance:** 87
+- **Accessibility:** 100
+- **Best Practices:** 100
+- **SEO:** 100
+
+*(Note: Tested on the live Vercel deployment using a mobile profile).*
+
+
