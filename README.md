@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Raivatedu — Marketing Website
 
-## Getting Started
+A production-quality marketing website for **Raivatedu**, an education and learning platform. Built as part of the Frontend Internship selection process.
 
-First, run the development server:
+## 🚀 Live Demo
+[https://koursera.vercel.app](https://koursera.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Tech Stack
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS (v4)
+- **Icons:** Lucide React
+- **Fonts:** Plus Jakarta Sans (Display) & Inter (Body) via `next/font`
+- **Deployment:** Vercel
+
+## 💻 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mohd-Hamza-123/Koursera.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🎨 Design & Brand Choices
+- **Colour Palette:** I chose Indigo (`#4f46e5`) for trust and credibility, paired with a Sunny Yellow (`#facc15`) to add youthful, energetic accents. The background is a soft off-white (`#fafaf9`) to reduce eye strain and keep the UI feeling clean.
+- **Typography:** Used *Plus Jakarta Sans* for headings because it feels rounded, friendly, and modern. Used *Inter* for body text due to its high legibility.
+- **Spacing & Components:** Created reusable `Section`, `Button`, `Accordion`, and `CourseCard` components to ensure a consistent layout across all pages and avoid repetitive code.
+
+## 📝 Assumptions Made
+- **Mock Data:** All course data, mentor names, reviews, and testimonials are illustrative mock data created for demonstration purposes, as specific course catalogs were not provided in the brief.
+- **Avatars:** Images and illustrations were replaced with initials-based avatars to maintain fast loading speeds and high Lighthouse scores without relying on external stock images.
+- **Links:** Social media links in the footer and some navigation links (like "Privacy Policy") are placeholders.
+
+## 🚧 What I would improve with more time
+- Add a fully functional dark-mode toggle (using `next-themes`).
+- Implement actual authentication and a checkout flow for the "Enrol Now" button.
+- Add Framer Motion for smooth page transitions and scroll-reveal animations.
+- Integrate a real search API (e.g., Algolia) to make the Hero search bar functional.
+
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
