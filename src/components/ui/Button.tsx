@@ -19,7 +19,7 @@ const variants = {
     ghost: "border border-indigo-200 text-indigo-700 hover:bg-indigo-50 active:bg-indigo-100",
 };
 
-export function Button({
+function Button({
     type = "button",
     children,
     href,
@@ -43,3 +43,5 @@ export function Button({
         </button>
     );
 }
+
+export default Button;

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { Button } from "../ui/Buttons";
+import Button from "../ui/Button";
 
 
 const navLinks = [

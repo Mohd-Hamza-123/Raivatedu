@@ -1,6 +1,6 @@
 import { Search } from "lucide-react";
-import { Button } from "../ui/Buttons";
 import { Section } from "../ui/Section";
+import Button from "../ui/Button";
 
 export function Hero() {
   return (

@@ -2,7 +2,8 @@ import Link from "next/link";
 import { Clock, BarChart } from "lucide-react";
 import { Section } from "@/components/ui/Section";
 import { courses } from "@/lib/data";
-import { Button } from "../ui/Buttons";
+import Button from "../ui/Button";
+
 
 export function FeaturedCourses() {
   return (
